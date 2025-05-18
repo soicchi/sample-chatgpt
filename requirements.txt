@@ -1,4 +1,6 @@
 openai==1.79.0
-langchain==0.3.0
+langchain==0.3.25
 langchain-openai==0.3.17
 pydantic==2.11.4
+GitPython==3.1.44
+langchain-community==0.3.24
