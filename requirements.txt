@@ -4,3 +4,5 @@ langchain-openai==0.3.17
 pydantic==2.11.4
 GitPython==3.1.44
 langchain-community==0.3.24
+langgraph==0.6.7
+langgraph-checkpoint==2.1.1

@@ -1,2 +1,2 @@
 docker_run:
-    docker run -it --rm --mount type=bind,src=.,dst=/opt sample-chatgpt /bin/bash
+    docker run -it --rm --mount type=bind,src=.,dst=/opt --env-file .env sample-chatgpt /bin/bash
