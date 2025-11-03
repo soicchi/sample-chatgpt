@@ -64,11 +64,14 @@ def main():
 
     user_query = State(query="私の好きなものはずんだ餅です。覚えておいてね。")
     first_response = state_graph.invoke(user_query, config)
-    print(first_response)
+    # print(first_response)
 
     user_second_query = State(query="私の好物は何か覚えている？")
     second_response = state_graph.invoke(user_second_query, config)
-    print(second_response)
+    # print(second_response)
+
+    for checkpoint in checkpointer.list(config):
+        print(checkpoint["channel_values"])
 
 
 if __name__ == "__main__":
